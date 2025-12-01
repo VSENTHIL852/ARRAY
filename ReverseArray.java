@@ -21,8 +21,8 @@ public class ReverseArray{
         }
 
         getrev(arr);
-        for(int i=0;i<n;i++){
-            System.out.print(arr[i]+" ");
+       for(int x:arr)
+            System.out.print(x+" ");
         }
 
 
