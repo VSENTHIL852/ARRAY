@@ -1,11 +1,11 @@
 import java.util.*;
 public class BuyandSell1{
     public static int ret(int[] arr){
+        int max=arr[0];
         int store=0;
-        for(int i=0;i<arr.length-1;i++){
-            for(int j=i+1;j<arr.length;j++){
-                store=Math.max(store,arr[j]-arr[i]);
-            }
+        for(int i=0;i<arr.length;i++){
+            max=Math.min(max,arr[i]);
+            store=Math.max(store,arr[i]-max);
         }
         return store;
     }
