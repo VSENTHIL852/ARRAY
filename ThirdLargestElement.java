@@ -27,7 +27,7 @@ public class ThirdLargestElement{
         }
         System.out.println(t);
 
-
+sc.close();
     }
     
 }
