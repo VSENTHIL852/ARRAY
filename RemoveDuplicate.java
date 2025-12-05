@@ -7,7 +7,6 @@ public class RemoveDuplicate{
             s.add(arr[i]);
         }
         return s;
-
     }
 public static void main(String[] args){
      int[] arr = {1, 2, 2, 3, 4, 4, 4, 5, 5};
