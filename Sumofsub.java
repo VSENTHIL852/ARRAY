@@ -1,6 +1,5 @@
 class Sumofsub{
- 
-    static int subarraySum(int[] arr) {
+     static int subarraySum(int[] arr) {
         
         int n = arr.length;
         int result = 0;
