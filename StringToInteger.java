@@ -3,7 +3,6 @@ import java.util.*;
 public class StringToInteger {
 
     public static int myAtoi(String s) {
-
         s = s.trim();
         if (s.isEmpty()) return 0;
 
