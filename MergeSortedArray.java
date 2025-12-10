@@ -4,7 +4,7 @@ class MergeSortedArray{
         int[] temp = new int[m + n];   // temporary merged array
         
         int i = 0;   // pointer for nums1
-        int j = 0;   // pointer for nums2
+        int j = 0;   // pointer 
         int k = 0;   // pointer for temp
 
         // merge from the FRONT
