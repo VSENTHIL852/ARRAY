@@ -17,9 +17,7 @@ class MergeSortedArray{
                 j++;
             }
             k++;
-        }
-
-        // remaining elements of nums1
+        }   // remaining elements of nums1
         while (i < m) {
             temp[k] = nums1[i];
             i++;
@@ -31,9 +29,7 @@ class MergeSortedArray{
             temp[k] = nums2[j];
             j++;
             k++;
-        }
-
-        // copy temp back to nums1
+        }      // copy temp back to nums1
         for (int x = 0; x < m + n; x++) {
             nums1[x] = temp[x];
         }
