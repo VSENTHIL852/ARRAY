@@ -1,5 +1,5 @@
 import java.util.*;
-public class BuyandSell1{
+public class BuyandSell1{ 
     public static int ret(int[] arr){
         int max=arr[0];
         int store=0;
