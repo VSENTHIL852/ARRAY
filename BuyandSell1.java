@@ -6,7 +6,7 @@ public class BuyandSell1{
         for(int i=0;i<arr.length;i++){
             max=Math.min(max,arr[i]); 
             store=Math.max(store,arr[i]-max); 
-        } 
+        }  
         return store;
     }
       public static void main(String[] args){
