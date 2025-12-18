@@ -19,7 +19,7 @@ public class SecondLargestElement{
                 second=arr[i];
             }
         }
-        System.out.println(second);
+        System.out.println(second); 
     }
 
 }
