@@ -19,7 +19,7 @@ public class ThirdLargestElement{
             else if(arr[i]>s && arr[i] < l){
             t=s;
             s=arr[i];
-            }
+            } 
 
             else if(arr[i]>t && arr[i] < s){
                 t=arr[i];
