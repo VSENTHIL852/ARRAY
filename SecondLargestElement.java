@@ -5,7 +5,7 @@ public class SecondLargestElement{
         int a=sc.nextInt();
         int[] arr=new int[a];
         for(int i=0;i<a;i++){
-            arr[i]=sc.nextInt();
+            arr[i]=sc.nextInt(); 
         }
         int largest=Integer.MIN_VALUE;
         int second=Integer.MIN_VALUE;
