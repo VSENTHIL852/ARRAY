@@ -10,4 +10,4 @@ public class Addone{
     a+=1;
     System.out.print(a);
 }
-}
+}  
