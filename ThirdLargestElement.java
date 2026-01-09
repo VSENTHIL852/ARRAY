@@ -5,7 +5,7 @@ public class ThirdLargestElement{
         int n=sc.nextInt();
         int[] arr=new int[n];
         for(int i=0;i<n;i++){
-            arr[i]=sc.nextInt();
+            arr[i]=sc.nextInt(); 
   
         }
         int l=Integer.MIN_VALUE,s=Integer.MIN_VALUE,t=Integer.MIN_VALUE;
