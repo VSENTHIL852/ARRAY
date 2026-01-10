@@ -6,7 +6,7 @@ public class Addone{
     for(int i=0;i<arr.length;i++){
         int b=arr[i]; 
         a=a*10+b;
-    }    
+    }       
     a+=1;
     System.out.print(a);
 }
