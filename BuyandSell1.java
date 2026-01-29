@@ -2,7 +2,7 @@ import java.util.*;
 public class BuyandSell1{ 
     public static int ret(int[] arr){
         int max=arr[0];
-        int store=0; 
+        int store=0;   
         for(int i=0;i<arr.length;i++){
             max=Math.min(max,arr[i]);  
             store=Math.max(store,arr[i]-max); 
